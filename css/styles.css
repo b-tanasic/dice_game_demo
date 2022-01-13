@@ -1,0 +1,58 @@
+@font-face {
+  font-family: blacksword;
+  src: fonts/Blacksword.otf;
+  
+}
+
+
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+body {
+  background-color: #1c1d1f;
+}
+
+h1 {
+  margin: 30px;
+  font-weight: 100;
+  font-family: blacksword, 'Indie Flower', sans-serif;
+  text-shadow: 5px 0 #232931;
+  font-size: 5rem;
+  color: rgb(9, 250, 238);
+}
+
+p {
+  font-size: 2rem;
+  color: rgb(255, 255, 255);
+  font-family: 'Indie Flower', cursive, sans-serif;
+}
+
+img {
+  width: 80%;
+}
+
+footer {
+  font-size: 1.5rem;
+  margin-top: 2%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Indie Flower', cursive, sans-serif;
+
+}
+
+.winner-msg {
+  visibility: hidden;
+}
+
+.bottom-description {
+  font-size: 0.9rem;
+}
